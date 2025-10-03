@@ -55,7 +55,9 @@ Il Makefile supporta i seguenti target:
 - *all*: esegue tutti i target prima citati nell'ordine: *stop*, *rm*, *build* e *run*;
 
 
-Il progetto docker imposta dei contenuti campione; Ci sono due utenti disponibili:
+
+Per vedere ed interagire col sito, aprire un browser e puntare all'indirizzo [http://localhost"](http://localhost).\
+Si noti che il progetto imposta dei "contenuti campione", questi mettono a disposizione gli utenti:
 
 - `adgialluisi` con password `adgialluisi`;
 - `jules` con password `julesjules`;
@@ -119,7 +121,9 @@ The Makefile supports the following targets:
 - *all*: runs all the targets listed earlier in the following order: *stop*, *rm*, *build*, *run*;
 
 
-The docker project sets some sample contents; There are two available users:
+
+To see and interact with the website, open a browser and visit [http://localhost"](http://localhost).\
+Please note that the project sets some "sample contents", these provide the following users:
 
 - `adgialluisi` with password `adgialluisi`;
 - `jules` with password `julesjules`;
