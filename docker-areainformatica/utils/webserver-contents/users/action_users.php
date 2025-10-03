@@ -1,13 +1,35 @@
-<!--
-Questo file viene utilizzato per eseguire tutte le operazioni
-riguardante l'autenticazione degli utenti, in particolare:
-    Registrazione
-    Login
-    Logout
-    Aggiornamento del profilo
--->
-
 <?php
+// Copyright (C) 2015 Antonio Daniele Gialluisi
+
+// This file is part of "Area informatica"
+
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+
+// You should have received a copy of the GNU General Public License
+// along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+
+
+
+
+/*
+ * Questo file viene utilizzato per eseguire tutte le operazioni
+ * riguardante l'autenticazione degli utenti, in particolare:
+ * - Registrazione
+ * - Login
+ * - Logout
+ * - Aggiornamento del profilo
+ */
+
+
 
 require($_SERVER['DOCUMENT_ROOT'] . "/base_classes/FormSessionHandler.php");
 require($_SERVER['DOCUMENT_ROOT'] . "/base_classes/DatabaseHandler.php");
